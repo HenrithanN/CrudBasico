@@ -10,7 +10,7 @@ namespace Tde_Poo
 {
     class Conexao : Cliente
     {
-        SqlConnection con = new SqlConnection("Data Source=sql4.porta80.com.br;" + "initial Catalog=lojasparati;" + "User id=lojasparati;" + "password=5117556");
+        SqlConnection con = new SqlConnection("Data Source=******;" + "initial Catalog=******;" + "User id=*****;" + "password=*****");
         SqlCommand cmd = new SqlCommand();
        
         public DataTable Pesquisar()
